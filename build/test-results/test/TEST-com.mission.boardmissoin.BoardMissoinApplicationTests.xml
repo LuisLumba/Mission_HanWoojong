@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mission.boardmissoin.BoardMissoinApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-11T06:16:38" hostname="LUIS" time="1.634">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.mission.boardmissoin.BoardMissoinApplicationTests" time="1.634"/>
+  <system-out><![CDATA[15:16:26.258 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mission.boardmissoin.BoardMissoinApplicationTests]: BoardMissoinApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:16:26.531 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mission.boardmissoin.BoardMissoinApplication for test class com.mission.boardmissoin.BoardMissoinApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-11T15:16:27.487+09:00  INFO 7680 --- [    Test worker] c.m.b.BoardMissoinApplicationTests       : Starting BoardMissoinApplicationTests using Java 17.0.9 with PID 7680 (started by dnwhd in D:\BootCamp\Projects\Missions\board-missoin)
+2024-01-11T15:16:27.492+09:00  INFO 7680 --- [    Test worker] c.m.b.BoardMissoinApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-01-11T15:16:28.992+09:00  INFO 7680 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-11T15:16:29.135+09:00  INFO 7680 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interface.
+2024-01-11T15:16:30.386+09:00  INFO 7680 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-11T15:16:30.675+09:00  INFO 7680 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@166c2c17
+2024-01-11T15:16:30.678+09:00  INFO 7680 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-11T15:16:30.767+09:00  INFO 7680 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-11T15:16:30.974+09:00  INFO 7680 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-11T15:16:31.107+09:00  INFO 7680 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-11T15:16:31.825+09:00  INFO 7680 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-11T15:16:34.764+09:00  INFO 7680 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-11T15:16:34.777+09:00  INFO 7680 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-11T15:16:36.099+09:00  WARN 7680 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-11T15:16:38.065+09:00  INFO 7680 --- [    Test worker] c.m.b.BoardMissoinApplicationTests       : Started BoardMissoinApplicationTests in 11.182 seconds (process running for 14.306)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

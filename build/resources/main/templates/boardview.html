@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>게시글 상세 페이지</title>
+</head>
+<style>
+    .layout {
+        width: 500px;
+        margin: 50px auto 0;
+    }
+
+    .container > .button:not(:last-child) {
+        margin-right: 15px;
+
+    }
+
+</style>
+<body>
+<div class="layout">
+  <h1 th:text="${board.title}">제목</h1>
+  <p th:text="${board.content}">내용</p>
+  <div class="container">
+
+    <a class="button" th:href="@{/board/modify/{id}(id=${board.id})}">
+      <button>수정하기</button>
+    </a>
+    <a class="button" th:href="@{/board/list}">
+      <button>목록으로</button>
+    </a>
+
+    <a class="button" th:href="@{/board/delete(id=${board.id})}">
+      <button>삭제하기</button>
+    </a>
+  </div>
+</div>
+</body>
+</html>
